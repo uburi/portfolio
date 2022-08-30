@@ -1,29 +1,30 @@
 .apresentacao{
     background: var(--cinza);
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 
 .imagem-fundo{
     background-image: url('../img/WhatsApp\ Image\ 2022-08-29\ at\ 13.17.25.jpeg');
     background-size: cover;
     border-radius: 50%;
-    width: 7em;
-    height: 7em;
+    width: 8em;
+    height: 8em;
 }
 #section_img{
     padding-bottom: 0.9em;
 }
-#sobre_mim{
+#sobre_sobre{
     padding-top: 0.2em;
     padding-bottom: 0.7em;
-
+    
 }
-#sobre_mim h1{
+#sobre_sobre h1{
     font-weight: 700;
     font-size: 1.3em;
     line-height: 26px;
     margin-bottom: 0.3em;
+
 }
 .redes{
     font-weight: bolder;
@@ -37,6 +38,9 @@
         display: flex;
         flex-direction:row-reverse;
     }
+    #sobre_sobre h1{
+        text-align: start;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -47,7 +51,20 @@
         align-items: center;
     }
     .imagem-fundo{
-        width: 320px;
-        height: 320px;
+        width: 280px;
+        height: 280px;
+    }
+    #sobre_sobre h1{
+        font-weight: 800;
+        font-size: 1.5em;
+        line-height: 26px;
+        margin-bottom: 0.3em;
+        
+    }
+    #sobre_sobre p{
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 26px;
+        margin-bottom: 0.3em;
     }
 }
