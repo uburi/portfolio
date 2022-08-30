@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--cinza);
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+.cabecalho-nav, .titulo_logo {
+    text-align: center;
+}
+.cabecalho-nav li:nth-child(-n + 5){
+    display: none;
+}
+.cabecalho-nav-item, .titulo_logo {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2;
+    margin: 0 .5em;
+    font-size:.95em;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho-nav-item, .titulo_logo  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cabecalho-nav li:nth-child(-n + 5){
+        display: inline-block;
+    }
+}

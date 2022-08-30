@@ -1,0 +1,19 @@
+:root{
+    --cinza: #F5F5F5;
+    --azulClaro: #EAF2FD;
+    --preto: black;
+    --fonte: 'Raleway', normal;
+}
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: var(--fonte);
+    color: black;
+    
+}
+@media screen and (min-width: 1024px) {
+    .container{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
