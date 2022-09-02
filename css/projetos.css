@@ -1,0 +1,50 @@
+.listaProjetos{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: .6s;
+}
+.bar:hover{
+    background-color: #ffffff;
+}
+input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+.slide{
+    width: 33%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -33%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -66%;
+}
