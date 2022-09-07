@@ -2,14 +2,18 @@
     --cinza: #F5F5F5;
     --azulClaro: #EAF2FD;
     --preto: black;
-    --fonte: 'Raleway', normal;
+    --fonte: 'Montserrat';
+}
+body{
+     font-family: 'Montserrat';
 }
 .container{
     padding-left: 4%;
     padding-right: 4%;
-    font-family: var(--fonte);
+    font-family: 'Montserrat';
+    font-weight: 200;
     color: black;
-    
+
 }
 @media screen and (min-width: 1024px) {
     .container{
