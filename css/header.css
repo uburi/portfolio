@@ -9,7 +9,7 @@ header{
 .cabecalho-nav, .titulo_logo {
     text-align: center;
 }
-.cabecalho-nav li:nth-child(-n + 5){
+.cabecalho-nav li:nth-child(-n + 1){
     display: none;
 }
 .cabecalho-nav-item, .titulo_logo {
@@ -19,15 +19,27 @@ header{
     margin: 0 .5em;
     font-size: .9em;
     color: #1F2626;
-    font-weight: bold;
+    font-weight: 500;
 }
+.cabecalho-nav li:last-child{
+    background-color: #5222D0;
+    color: #DBFFFF;
+    text-align: center;
+    padding: 0.4em;
+    font-weight: 100;
+    border-radius: 5px;
 
+} 
 @media screen and (min-width: 1024px) {
     .cabecalho-nav-item, .titulo_logo  {
         flex-direction: row;
         justify-content: space-between;
     }
-    .cabecalho-nav li:nth-child(-n + 5){
+    .cabecalho-nav li:nth-child(-n + 1){
         display: inline-block;
     }
+    .titulo_logo{
+        font-size: 20px;
+    }
+
 }

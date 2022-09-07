@@ -16,18 +16,37 @@
 }
 #sobre_sobre{
     padding-top: 0.2em;
-    padding-bottom: 0.7em;
+    padding-bottom: 1.4em;
     
 }
 #sobre_sobre h1{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.3em;
     line-height: 26px;
     margin-bottom: 0.3em;
+    color: #5222D0;
 
+}
+#sobre_sobre #dev{
+    margin-bottom: 6px;
+    font-weight: 400;
+    
+}
+#sobre_sobre #txt{
+    text-align: justify;
+    font-weight: 400;
 }
 .redes{
     font-weight: bolder;
+}
+.redes a{
+    background-color: #5222D0;
+    color: #DBFFFF;
+    text-align: center;
+    padding: 0.7em;
+    font-weight: 100;
+    border-radius: 5px;
+    margin-right: 7px;
 }
 @media screen and (min-width: 768px) {
     .imagem-fundo {
@@ -54,11 +73,17 @@
         width: 280px;
         height: 280px;
     }
+    #sobre_sobre{
+        font-size: 25px;
+        width: 550px;
+    }
     #sobre_sobre h1{
-        font-weight: 800;
+        font-weight: 600;
         font-size: 1.5em;
         line-height: 26px;
         margin-bottom: 0.3em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
         
     }
     #sobre_sobre p{

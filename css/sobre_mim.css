@@ -4,14 +4,23 @@
     padding-bottom: 4em;
 }
 .sobre_mim h2{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.3em;
     padding-bottom: 1em;
 }
+#txt_sobre{
+    display: flex;
+}
+#barra_roxa{
+    width: 20px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #5222D0;
+}
 .sobre_mim p{
-    line-height: 16px;
     font-weight: 400;
     text-align: justify;
+    padding-left: 4px;
 }
 @media screen and (min-width: 768px){
     .sobre_mim h2{
@@ -29,5 +38,10 @@
     }
 }
 @media screen and (min-width: 1024px) {
-    
+    #barra_roxa{
+        width: 14px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #5222D0;
+    }
 }
