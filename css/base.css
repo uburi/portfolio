@@ -14,6 +14,7 @@ body{
     font-family: 'Montserrat';
     font-weight: 500;
     color: black;
+    background-color: #FAFAFA;
 
 }
 @media screen and (min-width: 1024px) {

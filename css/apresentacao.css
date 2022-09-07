@@ -1,5 +1,4 @@
 .apresentacao{
-    background: #FAFAFA;
     padding-top: 1em;
     padding-bottom: 1.5em;
 }
@@ -44,7 +43,7 @@
     color: #DBFFFF;
     text-align: center;
     padding: 0.7em;
-    font-weight: 100;
+    font-weight: 400;
     border-radius: 5px;
     margin-right: 7px;
 }
@@ -62,7 +61,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
     .apresentacao{
         display: flex;
         flex-direction: row-reverse;

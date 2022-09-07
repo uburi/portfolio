@@ -1,5 +1,4 @@
 .sobre_mim{
-    background-color: #FAFAFA;
     padding-top: 1.7em;
     padding-bottom: 4em;
 }
@@ -7,6 +6,7 @@
     font-weight: 600;
     font-size: 1.3em;
     padding-bottom: 1em;
+    padding-left: .4em;
 }
 #txt_sobre{
     display: flex;
@@ -25,7 +25,7 @@
 @media screen and (min-width: 768px){
     .sobre_mim h2{
         padding-top: 1em;
-        font-weight: 800;
+        font-weight: 600;
         font-size: 1.5em;
         line-height: 26px;
         margin-bottom: 0.3em;
@@ -38,10 +38,17 @@
     }
 }
 @media screen and (min-width: 1024px) {
+    .sobre_mim h2{
+        padding-left: 0.7em;
+    }
+    .sobre_mim p{
+        padding-left: 6px;
+    }
     #barra_roxa{
-        width: 14px;
+        width: 10px;
         height: 70px;
         border-radius: 10px;
         background-color: #5222D0;
     }
+
 }
