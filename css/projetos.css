@@ -2,11 +2,17 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.projetos h4{
+.projetos_h4{
     font-weight: 600;
     font-size: 1.5em;
     padding-top: 1em;
     padding-bottom: 1.5em;
+}
+.projetos h4{
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-top: 1em;
+
 }
 .listaProjetos{
     display: flex;

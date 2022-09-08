@@ -13,7 +13,7 @@
 }
 #barra_roxa{
     width: 20px;
-    height: 70px;
+    height: 85px;
     border-radius: 10px;
     background-color: #5222D0;
 }
@@ -46,7 +46,7 @@
     }
     #barra_roxa{
         width: 10px;
-        height: 70px;
+        height: 90px;
         border-radius: 10px;
         background-color: #5222D0;
     }
