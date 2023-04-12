@@ -11,7 +11,7 @@
 .skills_cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 2.7em;
+    gap: 2.1em;
 }
 .skill-card{
     display: flex;
